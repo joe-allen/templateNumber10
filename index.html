@@ -311,6 +311,7 @@ hr.img{
   			height: 100%;
   			transition: background .5s ease;
   			width: 100%;
+				cursor: pointer;
   		}
 
   		.btn:hover span {
@@ -388,6 +389,170 @@ hr.img{
               .people{
                 width: 60%;
               }
+							.btn {
+							  		  font-size: 20px;
+							  			width: 300px;
+							  		}
+										h3{
+											font-size: 25px;
+
+										}
+
+										h4{
+																 font-size: 20px;
+															 }
+
+															 h5{
+															 	font-size: 18px;
+															 }
+
+
+															 .sidebar p{
+															 font-family: 'Open Sans', sans-serif;
+															 }
+
+
+
+
+							/*----------=============  OL  =============--------*/
+										ol{
+											font-weight:bold;
+											margin-left: 150px;
+											margin-right: 150px;
+											font-family: 'Open Sans', sans-serif;
+											font-size: 22px;
+											line-height: 35px;
+											display: block;
+							list-style: none;
+							overflow: hidden;
+							counter-reset: numList;
+										}
+
+
+										ol li {
+										    float: left;
+										    position: relative;
+												padding-left: 20px;
+												padding-right: 20px;
+										}
+											ol li:before {
+							    counter-increment: numList;
+							    content: counter(numList);
+
+							    float: left;
+							    position: absolute;
+							    left: -33px;
+
+							    font-family: 'Open Sans', sans-serif;
+									font-size: 25px;
+							    text-align: center;
+							    color: #fff;
+							    line-height: 35px;
+
+							    width: 40px; height: 40px;
+							    background: #EAC435;
+
+							    -moz-border-radius: 999px;
+							    border-radius: 999px
+											}
+
+							/*----------=============  /OL  =============--------*/
+
+							/*----------=============  UL  =============--------*/
+
+							ul.checkmark, ul.ulcheckmark .red{
+							      list-style-image: url('https://d13p2xj50zkyqm.cloudfront.net/promos_3/LF/New10/circular-button-outline-black.png');
+										margin-left: 80px;
+										margin-right: 80px;
+										font-family: 'Open Sans', sans-serif;
+										font-size: 22px;
+										line-height: 35px;
+							}
+
+							/*----------=============  /UL  =============--------*/
+
+							/*----------=============  Blockquote  =============--------*/
+											blockquote{
+											  display:block;
+												max-width: 800px;
+												width: auto;
+											 margin:0 auto;
+											  padding: 30px 70px 30px 80px;
+											  position: relative;
+												font-family: 'Open Sans', sans-serif;
+												font-size: 25px;
+												line-height: 35px;
+												text-align: center;
+											  border-left: 20px solid #000;
+											  border-right: 3px solid #000;
+
+											}
+
+											blockquote::before{
+												padding: 20px;
+											  content: "\201C";
+
+											  font-family: Georgia, serif;
+											  font-size: 60px;
+											  font-weight: bold;
+											  color: #EAC435;
+
+											  /*Positioning*/
+											  position: absolute;
+											  left: 0px;
+											  top:5px;
+											}
+
+
+
+							/*----------=============  /Blockquote  =============--------*/
+							/*----------=============  Image Testimonial  =============--------*/
+
+							.imagetestimonial {
+							  border: 3px solid #000;
+								max-width: 800px;
+								margin: auto;
+							  border-radius: 0px;
+							  padding: 5px;
+							}
+
+							.imagetestimonial img {
+								width: 15%;
+								padding-top: 5px;
+							}
+
+							hr.img{
+								display: block;
+								border-top:5px solid #EAC435;
+								margin-left: 250px;
+								margin-right: 250px;
+							}
+
+							.imagetestimonial p {
+								font-family: 'Open Sans', sans-serif;
+								font-size: 25px;
+								line-height: 35px;
+								text-align: center;
+							}
+							/*----------=============  /Image Testimonial  =============--------*/
+							/*----------=============  Callout =============--------*/
+
+							.callOut{
+								font-family: 'Open Sans', sans-serif;
+								margin-left:100px;
+								border-left:5px solid #EAC435;
+								color:#000;
+								padding-left:20px;
+								margin-top: 50px;
+									margin-bottom: 50px;
+							}
+
+								.callOut p{
+									font-family: 'Open Sans', sans-serif;
+									font-size: 30px;
+									font-weight:800;
+								}
+
 
 	  }
 	  	/*----------=============  /Queries  =============--------*/
@@ -2127,7 +2292,7 @@ hr.img{
 		<p>P.P.S. This is your last chance at turning $100 into a retirement fortune in the crypto markets. If you miss out on this epic boom, you&rsquo;ll regret it for the rest of your life.<br />
 		Click below to get started&hellip;</p>
 
-				<div id="btn1"><a class="btn"> <span>Next Step</span> </a></div>
+				<div id="btn1"><a class="btn pop"> <span>Next Step</span> </a></div>
  <!--====  End Body Section  ====--></div>
   <!-- / row --></div>
   <!--closing Contentwrapper --> <!--==== 2Step ===-->
