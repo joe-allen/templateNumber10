@@ -692,12 +692,12 @@ var staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/Import.vue?vue&type=template&id=7ea16102&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HelloWorld.vue?vue&type=template&id=38b06696&
-var HelloWorldvue_type_template_id_38b06696_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"img-pop-container"},[_c('div',{ref:"injectStyle"}),_c('div',{staticClass:"img-pop-container-relative"},[_c('img',{ref:"isInitialImg",staticClass:"img",class:{invisible : _vm.imageOpen},attrs:{"src":_vm.src,"alt":_vm.alt},on:{"click":_vm.open}})]),_c('div',{staticClass:"img-pop-container-popped",class:{hide : !_vm.imageOpen}},[_c('div',{staticClass:"opaqueOverlay"}),_c('div',{staticClass:"close",on:{"click":_vm.close}},[_c('span',{staticClass:"close_bar"},[_vm._v(" ")]),_c('span',{staticClass:"close_bar"},[_vm._v(" ")])]),_c('div',{staticClass:"web-component"},[_c('div',{staticClass:"web-component-img"},[_c('img',{staticClass:"img isPoppedImg",attrs:{"src":_vm.src,"alt":_vm.alt}})]),(_vm.title || _vm.text)?_c('div',{staticClass:"web-component-text"},[_c('h3',[_vm._v(_vm._s(_vm.title))]),_c('p',[_vm._v(_vm._s(_vm.text))])]):_vm._e()])])])}
-var HelloWorldvue_type_template_id_38b06696_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HelloWorld.vue?vue&type=template&id=581109f8&
+var HelloWorldvue_type_template_id_581109f8_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"img-pop-container"},[_c('div',{ref:"injectStyle"}),_c('div',{staticClass:"img-pop-container-relative"},[_c('img',{ref:"isInitialImg",staticClass:"img",class:{invisible : _vm.imageOpen},attrs:{"width":"auto","src":_vm.src,"alt":_vm.alt},on:{"click":_vm.open}})]),_c('div',{staticClass:"img-pop-container-popped",class:{hide : !_vm.imageOpen}},[_c('div',{staticClass:"opaqueOverlay"}),_c('div',{staticClass:"close",on:{"click":_vm.close}},[_c('span',{staticClass:"close_bar"},[_vm._v(" ")]),_c('span',{staticClass:"close_bar"},[_vm._v(" ")])]),_c('div',{staticClass:"web-component"},[_c('div',{staticClass:"web-component-img"},[_c('img',{staticClass:"img isPoppedImg",attrs:{"src":_vm.src,"alt":_vm.alt}})]),(_vm.title || _vm.text)?_c('div',{staticClass:"web-component-text"},[_c('h3',[_vm._v(_vm._s(_vm.title))]),_c('p',[_vm._v(_vm._s(_vm.text))])]):_vm._e()])])])}
+var HelloWorldvue_type_template_id_581109f8_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=38b06696&
+// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=581109f8&
 
 // EXTERNAL MODULE: ./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js
 var webcomponents_bundle = __webpack_require__("ec2e");
@@ -896,8 +896,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = normalizeComponent(
   components_HelloWorldvue_type_script_lang_js_,
-  HelloWorldvue_type_template_id_38b06696_render,
-  HelloWorldvue_type_template_id_38b06696_staticRenderFns,
+  HelloWorldvue_type_template_id_581109f8_render,
+  HelloWorldvue_type_template_id_581109f8_staticRenderFns,
   false,
   injectStyles,
   null,
@@ -958,7 +958,7 @@ Importshadow_component.options.__file = "Import.vue"
 
 
 
-window.customElements.define('custom-element', vue_wc_wrapper(external_Vue_default.a, Importshadow))
+window.customElements.define('img-pop', vue_wc_wrapper(external_Vue_default.a, Importshadow))
 
 /***/ }),
 
@@ -1311,4 +1311,4 @@ arguments)},g.revokeObjectURL=function(a){u.revokeObjectURL(a)});a.URL=g}})(wind
 /***/ })
 
 /******/ });
-//# sourceMappingURL=custom-element.js.map
+//# sourceMappingURL=img-pop.js.map
