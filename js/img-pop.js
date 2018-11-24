@@ -692,12 +692,12 @@ var staticRenderFns = []
 
 // CONCATENATED MODULE: ./src/Import.vue?vue&type=template&id=7ea16102&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HelloWorld.vue?vue&type=template&id=073b1e70&
-var HelloWorldvue_type_template_id_073b1e70_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"img-pop-container"},[_c('div',{ref:"injectStyle"}),_c('div',{staticClass:"img-pop-container-relative"},[_c('img',{ref:"isInitialImg",staticClass:"img",class:[{invisible : _vm.imageOpen}, _vm.userDefinedClass],attrs:{"customClass":_vm.customClass,"src":"https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_08_21_17_Chart-18.png","alt":_vm.alt},on:{"click":_vm.open}})]),_c('div',{staticClass:"img-pop-container-popped",class:{hide : !_vm.imageOpen}},[_c('div',{staticClass:"opaqueOverlay"}),_c('div',{staticClass:"close",on:{"click":_vm.close}},[_c('span',{staticClass:"close_bar"},[_vm._v(" ")]),_c('span',{staticClass:"close_bar"},[_vm._v(" ")])]),_c('div',{staticClass:"web-component"},[_c('div',{staticClass:"web-component-img"},[_c('img',{staticClass:"img isPoppedImg",attrs:{"src":"https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_08_21_17_Chart-18.png","alt":_vm.alt}})])])])])}
-var HelloWorldvue_type_template_id_073b1e70_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/HelloWorld.vue?vue&type=template&id=66477d9e&
+var HelloWorldvue_type_template_id_66477d9e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"img-pop-container"},[_c('div',{ref:"injectStyle"}),_c('div',{staticClass:"img-pop-container-relative"},[_c('img',{ref:"isInitialImg",staticClass:"img",class:[{invisible : _vm.imageOpen}, _vm.userDefinedClass],attrs:{"customClass":_vm.customClass,"src":_vm.src,"alt":_vm.alt},on:{"click":_vm.open}})]),_c('div',{staticClass:"img-pop-container-popped",class:{hide : !_vm.imageOpen}},[_c('div',{staticClass:"opaqueOverlay"}),_c('div',{staticClass:"close",on:{"click":_vm.close}},[_c('span',{staticClass:"close_bar"},[_vm._v(" ")]),_c('span',{staticClass:"close_bar"},[_vm._v(" ")])]),_c('div',{staticClass:"web-component"},[_c('div',{staticClass:"web-component-img"},[_c('img',{staticClass:"img isPoppedImg",attrs:{"src":_vm.src,"alt":_vm.alt}})]),(_vm.title || _vm.text)?_c('div',{staticClass:"web-component-text"},[_c('h3',[_vm._v(_vm._s(_vm.title))]),_c('p',[_vm._v(_vm._s(_vm.text))])]):_vm._e()])])])}
+var HelloWorldvue_type_template_id_66477d9e_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=073b1e70&
+// CONCATENATED MODULE: ./src/components/HelloWorld.vue?vue&type=template&id=66477d9e&
 
 // EXTERNAL MODULE: ./node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js
 var webcomponents_bundle = __webpack_require__("ec2e");
@@ -905,8 +905,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var component = normalizeComponent(
   components_HelloWorldvue_type_script_lang_js_,
-  HelloWorldvue_type_template_id_073b1e70_render,
-  HelloWorldvue_type_template_id_073b1e70_staticRenderFns,
+  HelloWorldvue_type_template_id_66477d9e_render,
+  HelloWorldvue_type_template_id_66477d9e_staticRenderFns,
   false,
   injectStyles,
   null,
