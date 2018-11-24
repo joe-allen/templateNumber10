@@ -895,6 +895,12 @@
 			justify-content: center;
 			align-items: center;
 		}
+		.example-img-pop-container {
+			width: 50%;
+		}
+		.famshot-img-pop-container {
+
+		}
 		/*----------============= /Img-Pop  =============--------*/
 
 		/*----------=============  /Body  =============--------*/
@@ -902,6 +908,9 @@
 		/*----------============= Queriers  =============--------*/
 
 		@media screen and (max-width:696px) {
+			.example-img-pop-container {
+				width: 100%;
+			}
 			h1 {
 				font-size: 30px;
 				font-weight: bold;
@@ -1122,7 +1131,11 @@
 
 			<!-- <img alt="Sept 30" class="image_center sept30" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_BitcoinsFinalBullRun_Sept30.png" /> -->
 
-		<img-pop class="img-pop image_center sept30" src="https://d13p2xj50zkyqm.cloudfront.net/promos/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_BitcoinsFinalBullRun_Sept30.png" title="James Altucher's Pop Image" alt="Sept 30" text="Sample of descriptive text - met consectetur adipisicing elit. Omnis sapiente non dicta qui illo molestiae dolore eaque voluptate explicabo reiciendis. Inventore fugit cupiditate tenetur facere est pariatur repellat quisquam tempora?Reprehenderit provident quis fuga eligendi vel ex, ducimus, nisi veniam porro amet deserunt quidem repudiandae et ad dicta quia odit iure accusantium aut. Exercitationem sunt quasi earum assumenda mollitia aliquam?"></img-pop>
+		<!-- - images default to 100% -->
+		<!-- - set a container to control img position/width -->
+		<div class="example-img-pop-container">
+			<img-pop class="img-pop image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_BitcoinsFinalBullRun_Sept30.png" title="James Altucher's Pop Image" alt="Sept 30" text="Sample of descriptive text - met consectetur adipisicing elit. Omnis sapiente non dicta qui illo molestiae dolore eaque voluptate explicabo reiciendis. Inventore fugit cupiditate tenetur facere est pariatur repellat quisquam tempora?Reprehenderit provident quis fuga eligendi vel ex, ducimus, nisi veniam porro amet deserunt quidem repudiandae et ad dicta quia odit iure accusantium aut. Exercitationem sunt quasi earum assumenda mollitia aliquam?"></img-pop>
+		</div>
 	</div>
 	<!--====  End Headline  ====-->
 
@@ -1160,7 +1173,11 @@
 			<p>One that could have a profound impact on your wealth and the wealth of your family for generations to come.</p>
 
 			<p>And this is NOT some speculation. Take a look at this official letter published by this government agency&hellip;</p>
-			<img alt="Sept 30" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_BitcoinsFinalBullRun_Sept30.png" />
+
+			<div class="example-img-pop-container">
+				<img-pop class="img-pop image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_BitcoinsFinalBullRun_Sept30.png" title="James Altucher's Pop Image" alt="Sept 30" text="Sample of descriptive text - met consectetur adipisicing elit. Omnis sapiente non dicta qui illo molestiae dolore eaque voluptate explicabo reiciendis. Inventore fugit cupiditate tenetur facere est pariatur repellat quisquam tempora?Reprehenderit provident quis fuga eligendi vel ex, ducimus, nisi veniam porro amet deserunt quidem repudiandae et ad dicta quia odit iure accusantium aut. Exercitationem sunt quasi earum assumenda mollitia aliquam?"></img-pop>
+			</div>
+
 			<p>It says in plain English&hellip;</p>
 
 			<p>They WILL make an announcement just days from now...</p>
@@ -1609,12 +1626,10 @@
 
 	<div class="row container">
 		<div class="col-4 columns">
-			<!-- <img alt="Tony Robbins" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Robbins.jpg" /><br /> -->
-			<img-pop class="image_center img-pop" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Robbins.jpg" alt="Tony Robbins and Me"></img-pop><br>
-			<!-- <img alt="Daymond John" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Daymond.jpg" /><br /> -->
-			<img-pop class="image_center img-pop" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Daymond.jpg" alt="Fubu Founder - Daymond"></img-pop><br>
-			<!-- <img alt="Robert Herjavec" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;SharkTank.jpg" /> -->
-			<img-pop class="image_center img-pop" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;SharkTank.jpg" alt="Robert Herjavec of Shark Tank"></img-pop><br>
+			<!-- <img-pop class="image_center img-pop" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Robbins.jpg" alt="Tony Robbins and Me"></img-pop><br> -->
+			<img alt="Tony Robbins" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Robbins.jpg" /><br />
+			<img alt="Daymond John" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;Daymond.jpg" /><br />
+			<img alt="Robert Herjavec" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_James&amp;SharkTank.jpg" />
 		</div>
 		<div class="col-8 columns">
 			<p style="margin-top: 0px;">I&rsquo;ve built connections ranging from the head of Google X (Google&rsquo;s experimental laboratory), Paypal Founder Peter Thiel, Mark Cuban&hellip;</p>
@@ -2641,8 +2656,8 @@
 			<p>No wonder the stock has already jumped 771% in the last couple of years&hellip;</p>
 
 			<p>In a time when the stock market went up just 16%!</p>
-			<!-- <img alt="771%" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_08_21_17_Chart-18.png" /> -->
-			<img-pop class="image_center img-pop" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_08_21_17_Chart-18.png" title="771% Increase with my stock choice!" alt="771%"></img-pop>
+			<img alt="771%" class="image_center" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_08_21_17_Chart-18.png" />
+			<!-- <img-pop class="image_center img-pop" src="https://d13p2xj50zkyqm.cloudfront.net/promos_1/LF/ALR/ALR_BitcoinsLastBullRun_092018/ALR_CryptoMasterClass_08_21_17_Chart-18.png" title="771% Increase with my stock choice!" alt="771%"></img-pop> -->
 			<p>That means you could have made 48 times MORE money than the overall market&hellip; just in the last couple of years.</p>
 
 			<p>And that&rsquo;s just from one stock.</p>
